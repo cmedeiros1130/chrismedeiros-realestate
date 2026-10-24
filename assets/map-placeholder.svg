@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img" aria-label="Stylized map of the Rhode Island and Massachusetts service area with sale markers">
+  <defs>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe9df"/>
+      <stop offset="1" stop-color="#e6ddce"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="460" fill="url(#land)"/>
+  <!-- water / bay -->
+  <path d="M560 460 C 560 360 610 320 600 250 C 592 195 640 150 630 90 C 626 55 660 20 690 0 L 1000 0 L 1000 460 Z" fill="#cdd8d3" opacity="0.75"/>
+  <path d="M470 460 C 480 400 445 380 470 330 C 486 298 470 270 500 250" fill="none" stroke="#bcc7c2" stroke-width="10" opacity="0.6" stroke-linecap="round"/>
+  <!-- road grid -->
+  <g stroke="#d3c9b8" stroke-width="3">
+    <path d="M0 90 H540"/><path d="M0 180 H520"/><path d="M0 270 H500"/><path d="M0 360 H520"/>
+    <path d="M120 0 V460"/><path d="M250 0 V460"/><path d="M380 0 V460"/>
+  </g>
+  <!-- main routes -->
+  <g stroke="#c9b48a" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85">
+    <path d="M40 40 C 200 120 260 180 470 300"/>
+    <path d="M30 300 C 180 260 300 230 500 120"/>
+  </g>
+  <!-- soft blocks -->
+  <g fill="#e2d8c6" opacity="0.6">
+    <rect x="150" y="110" width="70" height="50" rx="4"/>
+    <rect x="290" y="200" width="60" height="46" rx="4"/>
+    <rect x="60" y="290" width="46" height="52" rx="4"/>
+    <rect x="300" y="300" width="66" height="42" rx="4"/>
+    <rect x="180" y="380" width="70" height="46" rx="4"/>
+  </g>
+  <!-- markers -->
+  <g>
+    <g transform="translate(210,150)"><path d="M0 0 C -16 -22 -24 -34 -24 -48 A 24 24 0 1 1 24 -48 C 24 -34 16 -22 0 0 Z" fill="#b8975f"/><circle cx="0" cy="-48" r="9" fill="#2b2620"/></g>
+    <g transform="translate(340,250)"><path d="M0 0 C -16 -22 -24 -34 -24 -48 A 24 24 0 1 1 24 -48 C 24 -34 16 -22 0 0 Z" fill="#b8975f"/><circle cx="0" cy="-48" r="9" fill="#2b2620"/></g>
+    <g transform="translate(120,340)"><path d="M0 0 C -16 -22 -24 -34 -24 -48 A 24 24 0 1 1 24 -48 C 24 -34 16 -22 0 0 Z" fill="#b8975f"/><circle cx="0" cy="-48" r="9" fill="#2b2620"/></g>
+    <g transform="translate(430,360)"><path d="M0 0 C -16 -22 -24 -34 -24 -48 A 24 24 0 1 1 24 -48 C 24 -34 16 -22 0 0 Z" fill="#b8975f"/><circle cx="0" cy="-48" r="9" fill="#2b2620"/></g>
+  </g>
+  <text x="700" y="240" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#8a8072" letter-spacing="3" text-anchor="middle">RHODE ISLAND &amp; MASSACHUSETTS</text>
+</svg>

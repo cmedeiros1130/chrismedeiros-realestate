@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Christopher Medeiros on Zillow">
+  <rect width="1200" height="760" fill="#083D85"/>
+  <rect x="0" y="0" width="1200" height="760" fill="#A3CCE5" opacity="0.06"/>
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <text x="600" y="350" font-size="58" fill="#ffffff">Christopher Medeiros</text>
+  </g>
+  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+    <text x="600" y="420" font-size="26" fill="#A3CCE5" letter-spacing="3">ON ZILLOW · 13 SALES · $540K AVG · RI &amp; MA</text>
+    <text x="600" y="486" font-size="22" fill="#ffffff" font-weight="bold" letter-spacing="2">VIEW MY FULL ZILLOW PROFILE  →</text>
+  </g>
+</svg>

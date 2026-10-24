@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Property photo placeholder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9eef3"/>
+      <stop offset="1" stop-color="#d5dee7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <g stroke="#9aa9b8" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M250 340 L400 230 L550 340" />
+    <path d="M290 320 L290 470 L510 470 L510 320" />
+    <rect x="365" y="390" width="70" height="80" />
+  </g>
+  <g fill="#7f8fa0" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="400" y="530" font-size="22" letter-spacing="2">PROPERTY PHOTO PLACEHOLDER</text>
+    <text x="400" y="560" font-size="14" letter-spacing="1">Replace in assets/ (approx. 800×600)</text>
+  </g>
+</svg>
