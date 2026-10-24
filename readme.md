@@ -18,10 +18,9 @@ Webpage/
 ├── README.md           # This file
 └── assets/
     ├── favicon.svg                # CM monogram favicon
-    ├── headshot-placeholder.svg   # Hero + Zillow-card portrait → replace
+    ├── headshot-placeholder.svg   # Hero portrait → replace
     ├── map-placeholder.svg        # Stylized RI/MA service-area map (hand-drawn SVG)
     ├── property-placeholder.svg   # Generic property placeholder
-    ├── sale-1.svg … sale-4.svg    # Recent-sales card placeholders → replace
     └── logo-placeholder.svg       # Brokerage / REALTOR® / Equal Housing logos
 ```
 
@@ -60,14 +59,13 @@ Or connect a Git repo: **Add new site → Import an existing project**, build co
 - Alternating light / muted / espresso-dark sections with a distinctive gradient **Buy + Sell** feature section.
 - **Hero** — single headline, supporting copy, one primary CTA + a Zillow text link.
 - **About / credibility** — your four real stats and four value pillars.
-- **Zillow Showcase** — a custom-built HTML/CSS mirror of your profile (headshot, "Zillow Pro" badge, stats, hand-drawn service-area map). The whole card links to your profile in a new tab; recent sales shown beneath.
 - Three fully visible **8-step journeys** (Buying, Selling, Buy + Sell).
 - **Working mortgage estimator** — sliders for price / down payment / rate, a 30/15-year toggle, and a large live payment readout with loan amount and down payment.
 - **Offer strategy** grid (10 items, all visible) and a **visible-answer FAQ** (no accordion).
 - Trusted-professionals grid; final CTA with clickable phone, email, and Zillow.
 - Responsive at desktop / tablet / mobile, no horizontal overflow, visible focus states, reduced-motion support, SEO + Open Graph + `RealEstateAgent` structured data.
 
-**Accuracy:** only your real Zillow data is used — 13 sales (last 12 months), 13 total, $540K average, $310K–$830K range, licensed RI + MA. No video, no "Top 1%", no reviews, testimonials, awards, rankings, or invented addresses.
+**Accuracy:** only real information is used — licensed RI + MA. No video, no "Top 1%", no reviews, testimonials, awards, rankings, or invented addresses.
 
 ---
 
@@ -75,7 +73,6 @@ Or connect a Git repo: **Add new site → Import an existing project**, build co
 
 | Item | Where | Notes |
 |------|-------|-------|
-| **Zillow profile screenshot** | `assets/zillow-profile.png` | **Required.** Save your Zillow profile screenshot here; it appears full-size and clickable in the "See My Work on Zillow" section. Until added, a branded placeholder shows automatically. |
 | **Headshot** | `assets/headshot.jpg` | Your real photo (hero + About). Until added, a branded placeholder shows automatically via an `onerror` fallback. |
 | **Brokerage / Equal Housing logos** | `assets/logo-placeholder.svg` | Replace with required logos in the footer. |
 | **Brokerage disclosures** | Footer (`index.html`, marked `TODO`) | Add Slocum Home Team / eXp Realty branding, license numbers, and Equal Housing Opportunity wording. **Not invented.** |

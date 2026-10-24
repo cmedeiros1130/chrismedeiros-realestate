@@ -198,44 +198,6 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .rv-loc { font-size: .78rem; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin-top: 2px; }
 
 /* ============================================================
-   ZILLOW SCREENSHOT MIRROR
-   ============================================================ */
-.zprofile { display: grid; grid-template-columns: .95fr 1.05fr; gap: 22px; align-items: stretch; max-width: 1000px; margin: 0 auto; }
-.zp-card { background: var(--surface); border: 1px solid var(--sky); border-radius: var(--radius-lg); padding: 28px 30px; display: flex; flex-direction: column; gap: 22px; box-shadow: 0 12px 34px rgba(8,61,133,.10); }
-.zp-id { display: flex; align-items: center; gap: 20px; }
-.zp-avatar-wrap { position: relative; flex: 0 0 auto; display: inline-block; }
-.zp-avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 3px solid var(--sky); }
-.zp-topagent { position: absolute; left: 50%; bottom: -10px; transform: translateX(-50%); white-space: nowrap; background: var(--harbor); color: #fff; font-size: .6rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; box-shadow: 0 3px 8px rgba(8,61,133,.3); }
-.zp-topagent span { color: var(--sky); }
-.zp-idtext { display: flex; flex-direction: column; }
-.zp-name { font-family: var(--serif); font-size: 1.4rem; color: var(--ink); line-height: 1.2; }
-.zp-pro { font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--harbor); margin-top: 4px; }
-.zp-team { font-size: .82rem; color: var(--ink-soft); margin-top: 8px; }
-.zp-reviews { font-size: .74rem; color: var(--ink-faint); margin-top: 6px; font-style: italic; }
-.zp-btn { width: 100%; }
-
-.zp-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 0; background: var(--surface); border: 1px solid var(--sky); border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 12px 34px rgba(8,61,133,.10); }
-.zp-stats li { text-align: center; padding: 26px 18px; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.zp-stats li:nth-child(2n) { border-right: none; }
-.zp-stats li:nth-child(n+3) { border-bottom: none; }
-.zp-stats strong { font-family: var(--serif); font-size: clamp(1.5rem, 3vw, 2.1rem); font-weight: 600; color: var(--harbor); line-height: 1; }
-.zp-stats span { font-size: .68rem; text-transform: uppercase; letter-spacing: .09em; color: var(--ink-faint); font-weight: 600; margin-top: 9px; }
-
-.zp-sales-title { text-align: center; font-size: 1.4rem; color: var(--ink); margin: 48px 0 22px; }
-.zp-sales { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
-.zp-sale { position: relative; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--harbor); border-radius: var(--radius); padding: 22px 22px 20px; transition: border-color .2s var(--ease), transform .2s var(--ease), box-shadow .2s; }
-.zp-sale:hover { border-color: var(--sky); border-top-color: var(--scarlet); transform: translateY(-3px); box-shadow: 0 12px 28px rgba(8,61,133,.12); }
-.zp-badge { align-self: flex-start; background: var(--harbor); color: #fff; font-size: .62rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 4px 10px; border-radius: 4px; margin-bottom: 14px; }
-.zp-price { font-family: var(--serif); font-size: 1.5rem; font-weight: 600; color: var(--harbor); line-height: 1; }
-.zp-specs { font-size: .84rem; color: var(--ink-soft); margin-top: 8px; }
-.zp-city { font-size: .72rem; text-transform: uppercase; letter-spacing: .09em; color: var(--ink-faint); font-weight: 600; margin-top: 4px; }
-.zp-sold { display: inline-flex; align-items: center; gap: 6px; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--scarlet); margin-top: 14px; }
-.zp-sold::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--scarlet); }
-
-.zillow-link { font-family: var(--sans); font-size: .82rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--harbor); border-bottom: 2px solid var(--sky); padding-bottom: 3px; transition: color .2s, border-color .2s; }
-.zillow-link:hover { color: var(--scarlet); border-color: var(--scarlet); }
-
-/* ============================================================
    STEP GRIDS (journeys)
    ============================================================ */
 .steps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 960px; margin: 0 auto; }
@@ -365,8 +327,6 @@ input[type="range"]::-moz-range-thumb { width: 18px; height: 18px; border-radius
   .offer-grid { grid-template-columns: repeat(2, 1fr); }
   .pros-row { grid-template-columns: repeat(2, 1fr); }
   .calc-wrap { grid-template-columns: 1fr; }
-  .zprofile { grid-template-columns: 1fr; }
-  .zp-sales { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 620px) {
@@ -375,12 +335,17 @@ input[type="range"]::-moz-range-thumb { width: 18px; height: 18px; border-radius
   .container { padding: 0 20px; }
   .steps-grid, .faq-grid { grid-template-columns: 1fr; }
   .pillar-row, .offer-grid, .pros-row { grid-template-columns: 1fr; }
-  .zp-sales { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 24px; }
   .contact-methods { flex-direction: column; gap: 18px; }
   .hero-actions { flex-direction: column; gap: 16px; }
   .hero-actions .btn { width: 100%; }
+  .header-inner { gap: 12px; }
+  .header-cta { padding: 9px 12px; font-size: .64rem; letter-spacing: .08em; }
   .review-card blockquote { font-size: 1.05rem; }
+}
+
+@media (max-width: 359px) {
+  .header-cta { white-space: normal; text-align: center; line-height: 1.3; max-width: 120px; }
 }
 
 /* ============================================================

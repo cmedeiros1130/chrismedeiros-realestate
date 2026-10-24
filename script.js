@@ -57,7 +57,7 @@
   function setupReveal() {
     var selectors = [
       ".hero-copy", ".section-head", ".about-photo", ".about-intro",
-      ".pillar-row > li", ".review-card", ".zp-card", ".zp-stats", ".zp-sales-title", ".zp-sale", ".zillow-link", ".step",
+      ".pillar-row > li", ".review-card", ".step",
       ".calc-controls", ".calc-readout", ".disclaimer", ".offer-item", ".offer-note",
       ".faq-card", ".pros-row > li", ".contact-methods", ".contact-sign", ".script-accent"
     ];
